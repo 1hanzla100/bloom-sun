@@ -69,7 +69,7 @@ const PickLocation = () => {
 						) => {
 							axios
 								.get(
-									`http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=5&appid=${process.env.REACT_APP_OPEN_WEATHER_MAP_API_KEY}`
+									`https://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=5&appid=${process.env.REACT_APP_OPEN_WEATHER_MAP_API_KEY}`
 								)
 								.then(({ data }) => {
 									resetForm();
