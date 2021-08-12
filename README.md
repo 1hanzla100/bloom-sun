@@ -1,15 +1,10 @@
-- PWA
-- PIc location with mapbox maps
-<!-- - setup UI kit -->
-- moment js
+# Bloom Sun 
+Manage your schedule through our weather reports.
+
+## Technologies Used
+- Formik
+- OpenWeatherMaps API
+- Moment.js
 - axios
-- setup public folder
-<!-- - webpack compression -->
-<!-- - scrollbar light dark colors -->
-<!-- - fonts -->
-
-
-- setup geting api data
-- lazy loading of components
-- Preloader (Suspense)
+- Chakra UI
 
