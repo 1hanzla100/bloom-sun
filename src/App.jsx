@@ -22,7 +22,7 @@ function App() {
 			.catch((e) => console.log("N/A"));
 		axios
 			.get(
-				`http://api.openweathermap.org/data/2.5/onecall?units=metric&lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${process.env.REACT_APP_OPEN_WEATHER_MAP_API_KEY}&exclude=hourly,minutely,alerts,current`
+				`https://api.openweathermap.org/data/2.5/onecall?units=metric&lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${process.env.REACT_APP_OPEN_WEATHER_MAP_API_KEY}&exclude=hourly,minutely,alerts,current`
 			)
 			.then(({ data }) => {
 				setForecast(data.daily);
